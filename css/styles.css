@@ -1,0 +1,48 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+h1 {
+    text-align: left;
+}
+
+title{
+    font: bold;
+}
+
+#maze{
+    float:left;
+    line-height:0; 
+}
+
+#maze img{
+    width:8px;
+    height:8px;
+}
+
+#controls{
+    text-align: left;
+}
+
+#inputs{
+    display:table;
+}
+
+#inputs label{
+    display:table-cell;
+}
+
+#inputs input{
+    display:table-cell;
+}
+
+a{
+    color:cyan;
+}
+
+a:hover{
+    color:yellow;
+}
+
+
