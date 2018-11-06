@@ -18,7 +18,7 @@
         <div id="main">
             <div>
                 Generates mazes via some algorithm I came up with and ported to PHP. <br/>
-                Guarantees solvability, and that every tile is vistiable. <br/>
+                Guarantees solvability, and that every tile can be visited. <br/>
                 <a href="files/MazeC.txt">C code</a><br/>
                 <a href="files/MazeAuto.exe">Windows Executable (Automatic iteration)</a><br/>
                 <a href="files/MazeManual.exe">Windows Executable (Manual iteration)</a><br/>
