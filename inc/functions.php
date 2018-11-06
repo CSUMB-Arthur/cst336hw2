@@ -129,7 +129,7 @@
 			}
 			
 
-
+			/*
 			$found;
 			for ($i = 0; $i < $prevoptionsindex;){
 				$found = 0;
@@ -146,6 +146,11 @@
 					$i++;
 				}
 			}
+			*/
+			
+			//Does the exact same thing as the above commented out code
+			$prevoptions = array_diff($prevoptions, $validoptions);
+			$prevoptionsindex = count($prevoptions);
 			
 			for ($i = 0; $i < $prevoptionsindex; $i++){
 				//convert gold to blue, add as valid starts
